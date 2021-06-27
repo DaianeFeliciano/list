@@ -84,16 +84,30 @@ public class ExemploList {
 
         System.out.println("Remova as notas menores que 7 e exiba a lista: ");
         Iterator<Double> iterator1 = notas.iterator();
-        while(iterator1.hasNext()) {
+        while(iterator1.hasNext()) {  // inteirator tem próximo? colocou o proximo na variavel next
             Double next = iterator1.next();
             if(next < 7) iterator1.remove();
         }
         System.out.println(notas);
 
+        /*System.out.println("Apague toda a lista");
+        notas.clear();
+        System.out.println(notas);*/
+        System.out.println("Confira se a lista está vazia: " + notas.isEmpty());
 
-
-
-
+/*
+        Para você: Resolva esses exercícios utilizando os métodos da implementação LinkedList:
+        System.out.println("Crie uma lista chamada notas2 " +
+                "e coloque todos os elementos da list Arraylist nessa nova lista: ");
+        System.out.println("Mostre a primeira nota da nova lista sem removê-lo: ");
+        System.out.println("Mostre a primeira nota da nova lista removendo-o: ");
+*/
 
     }
 }
+
+
+
+
+
+
