@@ -11,7 +11,7 @@ public class Imutabilidade {
         System.out.println(retornarDobro.apply(valor));
 
         System.out.println(valor);
-        
+
 
     }
 }
