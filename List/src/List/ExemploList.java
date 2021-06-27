@@ -38,6 +38,24 @@ public class ExemploList {
 
         System.out.println("Exiba a posição da nota 5.0: " + notas.indexOf(5d)); // passa objeto e  mostra posição
 
+        System.out.println("Adicione na lista a nota 8.0 na posição 4: ");
+
+        notas.add(4, 8.0);
+
+        System.out.println(notas);
+
+        System.out.println("Substitua a nota 5.0 pela nota 6.0: ");
+
+        notas.set(notas.indexOf(5d), 6.0);
+        System.out.println(notas);
+
+        System.out.println("Confira se a nota 5.0 está na lista: " + notas.contains(5d)); // boolean
+
+        System.out.println("Exiba todas as notas na ordem em que foram informados: ");
+        for (Double nota : notas) System.out.println(nota);
+       // System.out.println(notas);
+
+
 
 
 
