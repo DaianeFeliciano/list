@@ -22,6 +22,13 @@ public class ExemploList {
         notas.remove(5d);
         System.out.println(notas);*/
 
+        System.out.println("Crie uma lista e adicione as setes notas: ");
+
+        List<Double> notas = new ArrayList<Double>();
+
+        notas.add(7d); // pode colocar d ou . 0 tipo double
+
+
 
 
 
