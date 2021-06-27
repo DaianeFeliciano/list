@@ -34,7 +34,9 @@ public class ExemploList {
         notas.add(0.0); // pode colocar d ou . 0 tipo double
         notas.add(4.0); // pode colocar d ou . 0 tipo double
 
-        System.out.println(notas);
+        System.out.println(notas.toString());
+
+        System.out.println("Exiba a posição da nota 5.0: " + notas.indexOf(5d)); // passa objeto e  mostra posição
 
 
 
