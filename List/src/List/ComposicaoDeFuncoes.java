@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class ComposicaoDeFuncoes {
    public static void main(String[] args) {
-//
+
       int [] valores = {1,2,3,4};
 //
 //        Arrays.stream(valores)
