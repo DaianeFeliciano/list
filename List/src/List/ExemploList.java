@@ -5,8 +5,10 @@ import java.util.List;
 
 public class ExemploList {
     public static void main(String[] args) {
-      List notas = new ArrayList();
+     // List notas = new ArrayList(); ante do java 5
 
-      
+
+
+
     }
 }
