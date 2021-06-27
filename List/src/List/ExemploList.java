@@ -27,6 +27,14 @@ public class ExemploList {
         List<Double> notas = new ArrayList<Double>();
 
         notas.add(7d); // pode colocar d ou . 0 tipo double
+        notas.add(8d); // pode colocar d ou . 0 tipo double
+        notas.add(9.3); // pode colocar d ou . 0 tipo double
+        notas.add(5.0); // pode colocar d ou . 0 tipo double
+        notas.add(7.0); // pode colocar d ou . 0 tipo double
+        notas.add(0.0); // pode colocar d ou . 0 tipo double
+        notas.add(4.0); // pode colocar d ou . 0 tipo double
+
+        System.out.println(notas);
 
 
 
