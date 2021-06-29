@@ -18,7 +18,7 @@ public class TesteMetodo {
 
 //        System.out.println(contadaDaiane.titular);
 
-        // Método
+        // Método nomeDaReferencia.nomeDoMetodo();
 
        contadaDaiane.deposita(600); // quanto quer depositar?
 
