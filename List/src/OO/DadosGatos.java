@@ -2,13 +2,13 @@ package OO;
 
 public class DadosGatos {
 
-    public String gatos;
-
-   DadosGatos (String gatos) {
-
-        gatos = new String();
-        this.gatos = gatos;
-    }
+//    public String gatos;
+//
+//   DadosGatos (String gatos) {
+//
+//        gatos = new String();
+//        this.gatos = gatos;
+//    }
 
 //    public DadosGatos() {
 //
@@ -36,6 +36,10 @@ public class DadosGatos {
                 "\n A cor do Gato 2 é: " + gato2.cor +
                 "\n A idade do Gato 2 é de: " + gato2.idade);
 
+        Gatos gatoDado1 = gato1;
+
+        System.out.println(gatoDado1.nome);
+        System.out.println(gato1.nome);
 
         if(gato2 != gato1) {
 
